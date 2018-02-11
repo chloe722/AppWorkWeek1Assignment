@@ -7,11 +7,9 @@ package foo;
 public class Human {
 
     private String name;
-    public final static int FIRE_BOW = 0x01;
-    public final static int ICE_BOW = 0x02;
 
-    public Human(){
-
+    public Human(String name){
+        this.name = name;
     }
 
     public void attack(){
